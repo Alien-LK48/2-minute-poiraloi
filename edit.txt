@@ -1,0 +1,29 @@
+** mid
+* hide mid 31
+* mid class note pdf 50
+* mid xtra books 122
+* book 1 66
+* book 2 76
+* book 3 86
+* book 4 98
+* book 5 108
+* book 6 118
+* book 7 130
+* book 8 140
+* book 9 150
+* suggestino pdf 165
+
+** final
+* hide final 172
+* final class note pdf 191
+* final xtra books 263
+* book 1 207
+* book 2 217
+* book 3 227
+* book 4 239
+* book 5 249
+* book 6 259
+* book 7 271
+* book 8 281
+* book 9 291
+* suggestino pdf 306

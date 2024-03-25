@@ -62,25 +62,25 @@ var i = 0;
 function prevnf(){
 	if(i <= 0) i = imagesofnote.length;	
 	i--;
-	return finalnotes.setAttribute('src', "../meterials/math/"+imagesofnote[i]);			 
+	return finalnotes.setAttribute('src', "meterials/math/"+imagesofnote[i]);			 
 }
 
 function nxtnf(){
 	if(i >= imagesofnote.length-1) i = -1;
 	i++;
-	return finalnotes.setAttribute('src', "../meterials/math/"+imagesofnote[i]); 
+	return finalnotes.setAttribute('src', "meterials/math/"+imagesofnote[i]); 
 }
 
 function prevsf(){
 	if(i <= 0) i = imagesofsuggs.length;	
 	i--;
-	return finalsuggus.setAttribute('src', "../meterials/math/"+imagesofsuggs[i]);		 
+	return finalsuggus.setAttribute('src', "meterials/math/"+imagesofsuggs[i]);		 
 }
 
 function nxtsf(){
 	if(i >= imagesofsuggs.length-1) i = -1;
 	i++;
-	return finalsuggus.setAttribute('src', "../meterials/math/"+imagesofsuggs[i]);		 
+	return finalsuggus.setAttribute('src', "meterials/math/"+imagesofsuggs[i]);		 
 }
 
 /*mid  */
@@ -88,23 +88,23 @@ function nxtsf(){
 function prevnm(){
 	if(i <= 0) i = imgsofmidnotes.length;	
 	i--;
-	return midnotes.setAttribute('src', "../meterials/math/"+imgsofmidnotes[i]);			 
+	return midnotes.setAttribute('src', "meterials/math/"+imgsofmidnotes[i]);			 
 }
 
 function nxtnm(){
 	if(i >= imgsofmidnotes.length-1) i = -1;
 	i++;
-	return midnotes.setAttribute('src', "../meterials/math/"+imgsofmidnotes[i]); 
+	return midnotes.setAttribute('src', "meterials/math/"+imgsofmidnotes[i]);
 }
 
 function prevsm(){
 	if(i <= 0) i = imgsofmidsuggs.length;	
 	i--;
-	return midsug.setAttribute('src', "../meterials/math/"+imgsofmidsuggs[i]);		 
+	return midsug.setAttribute('src', "meterials/math/"+imgsofmidsuggs[i]);		 
 }
 
 function nxtsm(){
 	if(i >= imgsofmidsuggs.length-1) i = -1;
 	i++;
-	return midsug.setAttribute('src', "../meterials/math/"+imgsofmidsuggs[i]);		 
+	return midsug.setAttribute('src', "meterials/math/"+imgsofmidsuggs[i]);		 
 }

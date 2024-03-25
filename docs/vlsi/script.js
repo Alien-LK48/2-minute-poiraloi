@@ -50,7 +50,7 @@ var midsug=document.querySelector('.midsugg');
 var imgsofmidsuggs = ['bg.png', 'pdf.png'];
 
 var finalnotes = document.querySelector('.finalnote');
-var imagesofnote = ['coming soon.jpg',/*'bg.png', 'main_bg.png'*/];
+var imagesofnote = ['coming soon.jpg'];
 
 var finalsuggus = document.querySelector('.finalsugg');
 var imagesofsuggs = ['no suggstion.jpg'];
@@ -62,25 +62,25 @@ var i = 0;
 function prevnf(){
 	if(i <= 0) i = imagesofnote.length;	
 	i--;
-	return finalnotes.setAttribute('src', "../imgs/bg/"+imagesofnote[i]);			 
+	return finalnotes.setAttribute('src', "meterials/vlsi/"+imagesofnote[i]);			 
 }
 
 function nxtnf(){
 	if(i >= imagesofnote.length-1) i = -1;
 	i++;
-	return finalnotes.setAttribute('src', "../imgs/bg/"+imagesofnote[i]); 
+	return finalnotes.setAttribute('src', "meterials/vlsi/"+imagesofnote[i]); 
 }
 
 function prevsf(){
 	if(i <= 0) i = imagesofsuggs.length;	
 	i--;
-	return finalsuggus.setAttribute('src', "../imgs/bg/"+imagesofsuggs[i]);		 
+	return finalsuggus.setAttribute('src', "meterials/vlsi/"+imagesofsuggs[i]);		 
 }
 
 function nxtsf(){
 	if(i >= imagesofsuggs.length-1) i = -1;
 	i++;
-	return finalsuggus.setAttribute('src', "../imgs/bg/"+imagesofsuggs[i]);		 
+	return finalsuggus.setAttribute('src', "meterials/vlsi/"+imagesofsuggs[i]);		 
 }
 
 /*mid  */
@@ -88,23 +88,23 @@ function nxtsf(){
 function prevnm(){
 	if(i <= 0) i = imgsofmidnotes.length;	
 	i--;
-	return midnotes.setAttribute('src', "../imgs/bg/"+imgsofmidnotes[i]);			 
+	return midnotes.setAttribute('src', "meterials/vlsi/"+imgsofmidnotes[i]);			 
 }
 
 function nxtnm(){
 	if(i >= imgsofmidnotes.length-1) i = -1;
 	i++;
-	return midnotes.setAttribute('src', "../imgs/bg/"+imgsofmidnotes[i]); 
+	return midnotes.setAttribute('src', "meterials/vlsi/"+imgsofmidnotes[i]); 
 }
 
 function prevsm(){
 	if(i <= 0) i = imgsofmidsuggs.length;	
 	i--;
-	return midsug.setAttribute('src', "../imgs/bg/"+imgsofmidsuggs[i]);		 
+	return midsug.setAttribute('src', "meterials/vlsi/"+imgsofmidsuggs[i]);		 
 }
 
 function nxtsm(){
 	if(i >= imgsofmidsuggs.length-1) i = -1;
 	i++;
-	return midsug.setAttribute('src', "../imgs/bg/"+imgsofmidsuggs[i]);		 
+	return midsug.setAttribute('src', "meterials/vlsi/"+imgsofmidsuggs[i]);		 
 }

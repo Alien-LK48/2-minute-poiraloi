@@ -53,7 +53,7 @@ var finalnotes = document.querySelector('.finalnote');
 var imagesofnote = ['coming soon.jpg',/*'bg.png', 'main_bg.png'*/];
 
 var finalsuggus = document.querySelector('.finalsugg');
-var imagesofsuggs = ['no suggstion.jpg'];
+var imagesofsuggs = ['suggstion.jpg'];
 
 
 var i = 0;

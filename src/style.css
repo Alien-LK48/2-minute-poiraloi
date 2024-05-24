@@ -1,15 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.favic{
+    @apply xl:absolute xl:w-[124px] xl:h-[124px] xl:mt-[-45px] xl:ml-[50px]
+    absolute w-[70px] h-[70px] mt-[-45px] ml-[10px]
+}
 .btn {
-    @apply bg-gray-500 h-[50px] w-[35%] flex box-border justify-center border-4 border-black rounded-full float-left mb-[30px] align-middle text-center pt-[5px] ml-[145px] text-xl
+    @apply xl:bg-gray-500 xl:h-[50px] xl:w-[35%] xl:flex xl:box-border xl:justify-center xl:border-4 xl:border-black xl:rounded-full xl:float-left xl:mb-[30px] xl:align-middle xl:text-center xl:pt-[5px] xl:ml-[145px] xl:text-xl 
+    bg-gray-500 h-[50px] w-[60%] flex box-border justify-center border-4 border-black rounded-full float-left mb-[30px] align-middle text-center pt-[10px] ml-[100px] text-sm
 }
 .hover {
     @apply hover:bg-gray-950 hover:text-white hover:border-yellow-400 rounded-full
 }
 .allheading {
-    @apply text-center mt-[10px] text-4xl uppercase
+    @apply xl:text-center xl:mt-[10px] xl:text-4xl xl:uppercase
+    text-center mt-[10px] text-xl uppercase font-bold
 }
 .hr {
     @apply border-black mt-[2px]
@@ -18,19 +23,44 @@
     @apply w-[100%] h-[100%] absolute
 }
 .imgstack {
-    @apply w-[30%] h-[550px] m-auto mt-[50px] shadow-2xl shadow-gray-950 relative overflow-hidden
+    @apply xl:w-[30%] xl:h-[550px] xl:m-auto xl:mt-[50px] xl:shadow-2xl xl:shadow-gray-950 xl:relative xl:overflow-hidden
+    w-[65%] h-[550px] m-auto mt-[50px] shadow-2xl shadow-gray-950 relative overflow-hidden
 }
 .pervslidebutton {
-    @apply h-[40px] bg-white text-2xl mr-[5px] border-black border-2 rounded-lg w-[50px] hover:bg-black hover:text-white absolute ml-[-310px] mt-[-310px] pl-[10px]
+    @apply xl:h-[40px] xl:bg-white xl:text-2xl xl:mr-[5px] xl:border-black xl:border-2 xl:rounded-lg xl:w-[50px] xl:hover:bg-black xl:hover:text-white xl:absolute xl:ml-[-310px] xl:mt-[-310px] xl:pl-[10px]
+    h-[40px] bg-white text-2xl  border-black border-2 rounded-lg w-[50px] hover:bg-black hover:text-white absolute  mt-[-310px] pl-[10px] ml-[-215px]
 }
 .nxtslidebbutton {
-    @apply h-[40px] bg-white text-2xl border-black border-2 rounded-lg w-[50px] mb-[10px] hover:bg-black hover:text-white absolute ml-[260px] mt-[-310px] pl-[10px]
+    @apply xl:h-[40px] xl:bg-white xl:text-2xl xl:border-black xl:border-2 xl:rounded-lg xl:w-[50px] xl:mb-[10px] xl:hover:bg-black xl:hover:text-white xl:absolute xl:ml-[260px] xl:mt-[-310px] xl:pl-[10px]
+    h-[40px] bg-white text-2xl border-black border-2 rounded-lg w-[50px] mb-[10px] hover:bg-black hover:text-white absolute mt-[-310px] pl-[10px] ml-[165px]
 }
 .downbutton {
     @apply text-xl border-2 border-black rounded-full hover:bg-black hover:text-white
+    
 }
 
 
 .pdfhover {
     @apply hover:bg-white hover:text-black hover:border-black border-2
+}
+.mainbox{
+    @apply xl:w-[350px] xl:h-[500px] xl:bg-[#8395a7] xl:relative xl:border-black xl:rounded-lg xl:border-2
+    
+    w-[150px] h-[300px] bg-[#8395a7] relative border-black rounded-lg border-2
+
+
+
+}
+.subbox{
+    @apply xl:w-[200px] xl:h-[250px] xl:bg-[#ced6e0] xl:absolute xl:ml-[70px] xl:mt-[50px] xl:border-2 xl:border-black
+    w-[100px]  h-[155px] bg-[#ced6e0] absolute ml-[20px] mt-[20px] border-2 border-black
+}
+.topics{
+    @apply absolute text-center xl:mt-[310px] xl:px-[10px] xl:py-[5px] xl:text-lg
+    mt-[180px] text-sm pl-[5px]
+}
+
+.download {
+    @apply relative xl:mt-[450px] xl:w-[140px] xl:h-[40px] xl:py-[5px] bg-black text-white xl:ml-[105px] rounded-full pdfhover flex xl:text-lg 
+    mt-[265px] ml-[25px] text-sm
 }

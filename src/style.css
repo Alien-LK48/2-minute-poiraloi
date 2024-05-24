@@ -7,7 +7,7 @@
 }
 .btn {
     @apply xl:bg-gray-500 xl:h-[50px] xl:w-[35%] xl:flex xl:box-border xl:justify-center xl:border-4 xl:border-black xl:rounded-full xl:float-left xl:mb-[30px] xl:align-middle xl:text-center xl:pt-[5px] xl:ml-[145px] xl:text-xl 
-    bg-gray-500 h-[50px] w-[60%] flex box-border justify-center border-4 border-black rounded-full float-left mb-[30px] align-middle text-center pt-[10px] ml-[20px] text-sm
+    bg-gray-500 h-[50px] w-[60%] flex box-border justify-center border-4 border-black rounded-full float-left mb-[30px] align-middle text-center pt-[10px] ml-[35px] text-sm
 }
 .hover {
     @apply hover:bg-gray-950 hover:text-white hover:border-yellow-400 rounded-full

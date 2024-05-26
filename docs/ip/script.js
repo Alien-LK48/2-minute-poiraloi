@@ -32,76 +32,39 @@ var y = setInterval(() => {
         document.getElementById('sf').innerHTML=seconds;
 }, 1000);
 
-var midnotes = document.querySelector('.midnote');
-var imgsofmidnotes=['pdf.png','bg.png'];
 
-var midsug=document.querySelector('.midsugg');
-var imgsofmidsuggs = ['bg.png', 'pdf.png'];
-
-var finalnotes = document.querySelector('.finalnote');
+var notes = document.querySelector('.note');
 var imagesofnote = ['coming soon.jpg'];
 
-var finalsuggus = document.querySelector('.finalsugg');
+var sugs = document.querySelector('.sugg');
 var imagesofsuggs = ['no suggstion.jpg'];
-
 
 var i = 0;
 
-/*final */
-function prevnf(){
+function PrevButtonOfNote(){
 	if(i <= 0) i = imagesofnote.length;	
 	i--;
     document.getElementById('page').innerHTML=`page ${i+1}`;
-	return finalnotes.setAttribute('src', "meterials/ip/"+imagesofnote[i]);			 
+	return notes.setAttribute('src', "meterials/ip/"+imagesofnote[i]);			 
 }
 
-function nxtnf(){
+function NxtButtonOfNote(){
 	if(i >= imagesofnote.length-1) i = -1;
 	i++;
     document.getElementById('page').innerHTML=`page ${i+1}`;
-	return finalnotes.setAttribute('src', "meterials/ip/"+imagesofnote[i]); 
+	return notes.setAttribute('src', "meterials/ip/"+imagesofnote[i]); 
 }
 
-function prevsf(){
+function PrevButtonOfSuggs(){
 	if(i <= 0) i = imagesofsuggs.length;	
 	i--;
     document.getElementById('page').innerHTML=`page ${i+1}`;
-	return finalsuggus.setAttribute('src', "meterials/ip/"+imagesofsuggs[i]);		 
+	return sugs.setAttribute('src', "meterials/ip/"+imagesofsuggs[i]);		 
 }
 
-function nxtsf(){
+function NxtButtonOfSuggs(){
 	if(i >= imagesofsuggs.length-1) i = -1;
 	i++;
     document.getElementById('page').innerHTML=`page ${i+1}`;
-	return finalsuggus.setAttribute('src', "meterials/ip/"+imagesofsuggs[i]);		 
-}
-
-/*mid  */
-
-function prevnm(){
-	if(i <= 0) i = imgsofmidnotes.length;	
-	i--;
-    document.getElementById('page').innerHTML=`page ${i+1}`;
-	return midnotes.setAttribute('src', "meterials/ip/"+imgsofmidnotes[i]);			 
-}
-
-function nxtnm(){
-	if(i >= imgsofmidnotes.length-1) i = -1;
-	i++;
-    document.getElementById('page').innerHTML=`page ${i+1}`;
-	return midnotes.setAttribute('src', "meterials/ip/"+imgsofmidnotes[i]); 
-}
-
-function prevsm(){
-	if(i <= 0) i = imgsofmidsuggs.length;	
-	i--;
-    document.getElementById('page').innerHTML=`page ${i+1}`;
-	return midsug.setAttribute('src', "meterials/ip/"+imgsofmidsuggs[i]);		 
-}
-
-function nxtsm(){
-	if(i >= imgsofmidsuggs.length-1) i = -1;
-	i++;
-    document.getElementById('page').innerHTML=`page ${i+1}`;
-	return midsug.setAttribute('src', "meterials/ip/"+imgsofmidsuggs[i]);		 
+	return sugs.setAttribute('src', "meterials/ip/"+imagesofsuggs[i]);		 
 }

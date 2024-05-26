@@ -20,7 +20,7 @@
 .hr {
     @apply border-black mt-[2px]
 }
-.midnote, .midsugg, .finalnote, .finalsugg {
+.note, .sugg {
     @apply w-[100%] h-[100%] absolute
 }
 .imgstack {

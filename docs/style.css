@@ -646,7 +646,7 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.midnote, .midsugg, .finalnote, .finalsugg {
+.note, .sugg {
   position: absolute;
   height: 100%;
   width: 100%;

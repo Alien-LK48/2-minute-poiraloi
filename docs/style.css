@@ -546,10 +546,10 @@ video {
 
 .favic {
   position: absolute;
-  margin-top: -45px;
+  margin-top: -30px;
   margin-left: 10px;
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
 }
 
 @media (min-width: 1280px) {
@@ -565,7 +565,7 @@ video {
 .btn {
   float: left;
   margin-bottom: 30px;
-  margin-left: 40px;
+  margin-left: 45px;
   box-sizing: border-box;
   display: flex;
   height: 50px;

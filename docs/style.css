@@ -565,11 +565,11 @@ video {
 .btn {
   float: left;
   margin-bottom: 30px;
-  margin-left: 20px;
+  margin-left: 40px;
   box-sizing: border-box;
   display: flex;
   height: 50px;
-  width: 60%;
+  width: 70%;
   justify-content: center;
   border-radius: 9999px;
   border-width: 4px;
@@ -685,7 +685,7 @@ video {
 .pervslidebutton {
   position: absolute;
   margin-top: -310px;
-  margin-left: -215px;
+  margin-left: -190px;
   height: 40px;
   width: 50px;
   border-radius: 0.5rem;
@@ -737,7 +737,7 @@ video {
   position: absolute;
   margin-bottom: 10px;
   margin-top: -310px;
-  margin-left: 165px;
+  margin-left: 140px;
   height: 40px;
   width: 50px;
   border-radius: 0.5rem;

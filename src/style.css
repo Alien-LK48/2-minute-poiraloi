@@ -63,9 +63,9 @@
 }
 .pdf {
   @apply relative xl:mt-[350px] xl:w-[90px] xl:h-[40px] xl:py-[5px] bg-black text-white xl:ml-[30px] rounded-full pdfhover flex xl:text-lg 
-    mt-[265px] ml-[-15px] text-sm;
+    mt-[265px] ml-[10px] text-sm;
 }
 .docx {
   @apply relative xl:mt-[-40px] xl:w-[100px] xl:h-[40px] xl:py-[5px] bg-black text-white xl:ml-[150px] rounded-full pdfhover flex xl:text-lg 
-    mt-[-125px] ml-[145px] text-sm;
+    mt-[-25px] ml-[75px] text-sm;
 }

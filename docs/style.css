@@ -930,7 +930,7 @@ video {
 .pdf {
   position: relative;
   margin-top: 265px;
-  margin-left: -15px;
+  margin-left: 10px;
   display: flex;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
@@ -966,8 +966,8 @@ video {
 
 .docx {
   position: relative;
-  margin-top: -125px;
-  margin-left: 145px;
+  margin-top: -25px;
+  margin-left: 75px;
   display: flex;
   border-radius: 9999px;
   --tw-bg-opacity: 1;

@@ -646,7 +646,8 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.note, .sugg {
+.note,
+.sugg {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -829,8 +830,8 @@ video {
 @media (min-width: 1280px) {
   .mainbox {
     position: relative;
-    height: 500px;
-    width: 350px;
+    height: 400px;
+    width: 290px;
     border-radius: 0.5rem;
     border-width: 2px;
     --tw-border-opacity: 1;
@@ -856,8 +857,8 @@ video {
 @media (min-width: 1280px) {
   .subbox {
     position: absolute;
-    margin-left: 70px;
-    margin-top: 50px;
+    margin-left: 45px;
+    margin-top: 20px;
     height: 250px;
     width: 200px;
     border-width: 2px;
@@ -879,7 +880,7 @@ video {
 
 @media (min-width: 1280px) {
   .topics {
-    margin-top: 310px;
+    margin-top: 280px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -915,10 +916,84 @@ video {
 
 @media (min-width: 1280px) {
   .download {
-    margin-top: 450px;
-    margin-left: 105px;
+    margin-top: 350px;
+    margin-left: 70px;
     height: 40px;
     width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.pdf {
+  position: relative;
+  margin-top: 265px;
+  margin-left: -15px;
+  display: flex;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-width: 2px;
+}
+
+.pdf:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px) {
+  .pdf {
+    margin-top: 350px;
+    margin-left: 30px;
+    height: 40px;
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.docx {
+  position: relative;
+  margin-top: -125px;
+  margin-left: 145px;
+  display: flex;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-width: 2px;
+}
+
+.docx:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px) {
+  .docx {
+    margin-top: -40px;
+    margin-left: 150px;
+    height: 40px;
+    width: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1.125rem;

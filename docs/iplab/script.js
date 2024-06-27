@@ -1,4 +1,4 @@
-var mid = new Date("Dec 30, 2024 00:00:00").getTime();
+var mid = new Date("Aug 30, 2024 00:00:00").getTime();
 
 var x = setInterval(() => {
   var now = new Date().getTime();
